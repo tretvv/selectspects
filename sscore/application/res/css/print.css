@@ -1,0 +1,8 @@
+/* This stylesheet contains all structure elements */
+
+body {
+	background: white;
+}
+
+header, nav, footer							{display:none}
+#topRowBar, #logoBar, #progressComplete		{display:none}

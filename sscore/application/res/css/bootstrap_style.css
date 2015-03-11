@@ -1,0 +1,505 @@
+html{
+    background-color: #fff;
+}
+body {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+/*header_top*/
+.row_head_top {
+    width: 100%;
+    background-color: #000;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0.5%;
+    line-height: 0.8em;
+}
+.head_top_phone_decor {
+    color: #e84b3a;
+    font-weight: bold;
+}
+.row_head_top p{
+    color: #fff;
+    margin-top: 0.2%;
+    text-align: center;
+}
+a.red {
+    font-weight: bold;
+}
+.col_form_head_top {
+    margin-top: -1px;
+    text-align: center;
+}
+#currency span {
+    color: #fff;
+}
+. coll_form_padd {
+    padding-bottom: 1.5%;
+}
+.butt_head_top {
+   display: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.menu_contact_head_top {
+    min-width: 35%;
+    font-size: 0.7em;
+    text-align: center;
+    background-color: black;
+    margin-left: -1px;
+}
+.col_form_head_top {
+    padding-bottom: 5px;
+}
+.col_head_top {
+    padding-top: 2px;
+}
+.active_head {
+    display: block;
+}
+.passive_head {
+    display: none;
+}
+.for_col_form_head_top {
+    margin-left: 100px;
+    margin-top: -21px;
+}
+/*head_middle*/
+#navLogo {
+    display: block;
+    width: 100%;
+    background-size: 405%;
+    background-image: url("../../../../sscore/application/res/images/sprites/sprite-uk.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: none;
+    padding-bottom: 31%;
+}
+.container_head_middle {
+    /*outline: 1px #ff0000 solid;*/
+    width: 78%;
+}
+
+.loginBlock {
+    margin-top: 1.5%;
+}
+.loginBlock p {
+    text-align: right;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+.loginBlock a{
+    text-decoration: none;
+    color: #000000;
+}
+.loginBlock a:hover{
+    text-decoration: underline;
+    color: #970000;
+}
+.col_head_middle_two_form {
+
+}
+
+#searchform {
+    border: 1px solid #b0b0b0;
+    padding: 2%;
+    border-radius: 3px;
+    background: #ecf0f1;
+    max-width: 210px;
+    height: 40px;
+}
+#searchform input {
+    border: 0;
+    width: 82%;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #545454;
+    background: #ecf0f1;
+    padding: 3%;
+    margin: 0;
+}
+input[type="text"]:focus { outline: none; }
+
+#searchform button {
+    background-image: url("../../../../sscore/application/res/images/sprites/layout-sprite.png");
+    background-color: #ecf0f1;
+    background-position: 0px -836px;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    padding: 6px 12px;
+    line-height: 1.2em;
+    box-shadow: none;
+    /*outline: 1px rgb(224, 0, 255) solid;*/
+}
+#searchform button:focus { outline: none; }
+.wishlistBlock {
+    text-decoration:none!important;
+}
+
+.col_head_middle_basket {
+    padding: 0;
+    float: left;
+    margin-left: 8px;
+}
+.col_head_middle_wish {
+    float: left;
+    margin-left: 25px;
+}
+.col_head_middle_form {
+    float: left;
+}
+.col_head_middle_for_565 {
+    float: left;
+}
+.wishlistTxt {
+    display: block;
+    font-weight: bold;
+    padding: 4px 7px 4px 38px;
+    background-image: url("../../../../sscore/application/res/images/sprites/layout-sprite.png");
+    background-color: #ffffff;
+    background-position: 0px -877px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    height: 40px;
+    width: 114px;
+    color: #000000;
+    font-size: 1em;
+    line-height: 2.1em;
+    text-decoration:none!important;
+}
+.basketBlock {
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 4px 8px 4px 50px;
+    background-image: url("../../../../sscore/application/res/images/sprites/layout-sprite.png");
+    background-color: #ffffff;
+    background-position: 0px -923px;
+    border: 1px solid #d0d0d0;
+    height: 40px;
+    width: 84px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #000000;
+    text-decoration:none!important;
+}
+.noItems {
+    font-size: 1em;
+    line-height: 2em;
+    padding: 4px 8px;
+    background: #fc4c02;
+    color: #ffffff;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+@media  (max-width: 825px){
+    .col_head_middle_wish {
+        margin-left: 8px;
+    }
+    .container_head_middle {
+        width: 100%;
+    }
+}
+
+@media  (max-width: 768px) {
+
+    .col_head_middle_two_group {
+       margin-left: -80px;
+
+    }
+    .col_head_middle_two {
+        padding-left: 0;
+
+    }
+}
+@media  (max-width: 485px){
+    .col_head_middle {
+       display: none;
+    }
+    .col_head_middle_two {
+        width: 100%;
+    }
+    .col_head_middle_two_group {
+      float: none!important;
+        width: 215px;
+        margin: 0 auto;
+    }
+    .col_head_middle_form {
+        float: none;
+    }
+    .col_head_middle_for_565 {
+        float: none;
+        margin-top: 5px;
+        margin-left: -6px;
+    }
+    .loginBlock p {
+        text-align: center;
+    }
+}
+
+/*Навигация*/
+
+.container_nav {
+    background-color: #404048;
+    width: 100%;
+    margin: 16px 0 0;
+    height: 33px;
+}
+.navbar-header {
+    background-color: #404048;
+    height: 33px;
+}
+
+.navbar_header_all {
+    font-size: 0.7em;
+    background-color: #404048;
+    border: none;
+    color: #ffffff!important;
+    min-height: 33px!important;
+    margin-left: 2%;
+
+}
+.navLink {
+    padding-bottom: 17px!important;
+
+}
+.navLinkSale {
+    padding-bottom: 17px!important;
+
+}
+.navbar-nav  li > a {
+    color: #ffffff!important;
+    line-height: 0.1em;
+    font-weight: bold;
+}
+.navbar-nav  li > a:hover {
+     text-decoration: underline;
+
+ }
+
+.navbar-nav > li:hover {
+      background-color: #000000;
+}
+
+@media  (min-width: 768px) and (min-width: 1140px) {
+    ul.nav li.dropdown:hover > .dropdown-menu_nav_header {
+        display: block;
+    }
+}
+.dropdown-glasses {
+    left: -45px;
+    height: 280px;
+}
+.dropdown-sunglasses {
+    left: -128px;
+    height: 280px;
+}
+.dropdown-cLenses {
+    height: 280px;
+    left: -234px;
+}
+.dropdown-accessory {
+    height: 280px;
+
+}
+
+#navbarCollapse {
+    background-color: #404048;
+}
+.button_collaps {
+    height: 33px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 5px;
+}
+.navHome {
+    display: block;
+    background-image: url("../../../../sscore/application/res/images/sprites/layout-sprite.png");
+    background-position: 0px -976px;
+    padding: 6px 10px;
+    margin: 0 10px;
+    height: 26px;
+}
+a:hover.navHome {
+    text-decoration: none;
+}
+.dropdown-menu_nav_header {
+    background-color: #000000;
+    border: none;
+
+}
+
+@media  (min-width: 940px){
+    .dropdown-menu_nav_header {
+        min-width: 945px;
+    }
+}
+
+.drop-col-1 {
+    width: 100%;
+    font-size: 12px;
+    padding-right: 0;
+}
+
+@media  (min-width: 769px) {
+    .drop-col-1 {
+        width: 178px;
+        height: 260px;
+
+    }
+
+    .drop-col-1_1 {
+        width: 187px;
+    }
+}
+
+.drop-col-1 h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ff3b3b;
+    font-weight: bold;
+}
+.drop-col-1 p{
+     margin-bottom: 0px;
+ }
+.drop-col-2 {
+    border-right: none!important;
+}
+
+.drop-col-3 {
+    padding-top: 34px;
+}
+@media  (max-width: 1006px){
+    .navbar-nav_all > li > a{
+        padding: 15px 10px;
+    }
+}
+@media  (max-width: 991px){
+    .nav_container{
+        margin: 0 auto;
+        max-width: 750px;
+    }
+}
+/*Стили для расскрывающегося меню*/
+
+@media  (min-width: 1091px){
+    .dropdown-accessory {
+        min-width: 450px!important;
+    }
+}
+@media  (max-width: 1091px){
+    .dropdown-menu_nav_header{
+        min-width: 730px;
+    }
+
+    .dropdown-menu_nav_header li {
+        width: 145px;
+    }
+    .dropdown-accessory {
+        min-width: 315px!important;
+    }
+    p.navIcon1 {
+        line-height: 0.9em;
+    }
+}
+
+@media  (max-width: 788px){
+    .dropdown-menu_nav_header{
+        min-width: 680px;
+    }
+    .dropdown-menu_nav_header >li {
+        width: 135px;
+    }
+    .dropdown-menu_nav_header li {
+        width: 132px;
+    }
+
+    .dropdown-accessory {
+        min-width: 265px!important;
+    }
+
+}
+/*====================Аккордеон - листать ===========================================================================*/
+
+@media  (max-width: 768px){
+    .dropdown-menu_nav_header{
+        min-width: 100%;
+    }
+    .dropdown-menu_nav_header >li {
+        width: 135px;
+    }
+    .dropdown-menu_nav_header li {
+        width: 132px;
+    }
+
+    .dropdown-accessory {
+        min-width: 265px!important;
+    }
+
+}
+.aw-accordion .one {
+    width:17%;
+    float:left;
+    height:260px;
+    display:inline-block;
+    /*z-index:1;*/
+    position:relative;
+    overflow:hidden;
+    transition:all 200ms cubic-bezier(0.645, 0.575, 0.090, 1.000);
+    cursor: default;
+}
+
+.aw-accordion .one{
+    background-color: #000;
+
+}
+
+@media  (max-width: 769px) {
+    .aw-accordion .one:hover {
+        overflow-y: auto;
+    }
+}
+
+.aw-accordion .one:hover span {
+
+}
+
+.aw-accordion li::-webkit-scrollbar {
+    width: 8px;
+}
+.aw-accordion li::-webkit-scrollbar-track {
+    background-color: #ff0000;
+}
+.aw-accordion li::-webkit-scrollbar-thumb {
+    background-color: rgba(1, 1, 1, .2);
+}
+.aw-accordion li::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(1, 1, 1, .3);
+}
+
+
+@media (max-width:1024px){
+
+}
+
+@media (min-width:768px) {
+    .aw-accordion li{
+        width:17%!important;
+    }
+}
+
+@media (max-width:768px){
+    .navbar-nav_all {
+        background-color: black;
+    }
+}
+
+@media (max-width:768px){
+    .dropdown-menu_nav_header {
+        border-bottom: 2px #ffffff solid!important;
+    }
+}
+/*=========================================================*/
+
